@@ -5,8 +5,11 @@ import { ProductListingPageComponent } from './components/product-listing-page/p
 import { StockRegisteringPageComponent } from './components/stock-registering-page/stock-registering-page.component';
 import { PurchaseHistoryListingPageComponent } from './components/purchase-history-listing-page/purchase-history-listing-page.component';
 import { ProductRegisteringPageComponent } from './components/product-registering-page/product-registering-page.component';
-
-
+import { HttpClientModule } from '@angular/common/http';
+import { NgxTranslateModule } from '../ngx-translate/ngx-translate.module';
+import { MaterialModule } from '../material/material.module';
+import { ReactiveFormsModule } from '@angular/forms';
+import { CoreModule } from '../core/core.module';
 
 @NgModule({
   declarations: [
@@ -14,10 +17,22 @@ import { ProductRegisteringPageComponent } from './components/product-registerin
     ProductListingPageComponent,
     StockRegisteringPageComponent,
     PurchaseHistoryListingPageComponent,
-    ProductRegisteringPageComponent
+    ProductRegisteringPageComponent,
   ],
   imports: [
-    CommonModule
-  ]
+    CommonModule,
+    HttpClientModule,
+    NgxTranslateModule,
+    MaterialModule,
+    ReactiveFormsModule,
+    CoreModule,
+  ],
+  exports: [
+    SignInPageComponent,
+    ProductListingPageComponent,
+    StockRegisteringPageComponent,
+    PurchaseHistoryListingPageComponent,
+    ProductRegisteringPageComponent,
+  ],
 })
-export class PagesModule { }
+export class PagesModule {}

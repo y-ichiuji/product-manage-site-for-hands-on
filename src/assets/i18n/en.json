@@ -215,7 +215,7 @@
       "badRequest": "The input information is incorrect.",
       "unAuthorized": "Unauthorized.",
       "notFound": "Page not found.",
-      "datNotFoundException": "Data does not exist.",
+      "dataNotFoundException": "Data does not exist.",
       "duplicateKeyException": "Information for the same key has already been registered.",
       "exclusiveProcessingException": "The other user has changed the same data, please get the latest information.",
       "outOfStockException": "Out of stock.",

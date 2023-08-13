@@ -215,7 +215,7 @@
       "badRequest": "入力情報が正しくありません。",
       "unAuthorized": "権限がありません。",
       "notFound": "ページがみつかりません。",
-      "datNotFoundException": "データが存在しません。",
+      "dataNotFoundException": "データが存在しません。",
       "duplicateKeyException": "同一キーの情報がすでに登録されています。",
       "exclusiveProcessingException": "他ユーザーが同一データを変更しました、最新情報を取得してください。",
       "outOfStockException": "在庫が不足しています。",
